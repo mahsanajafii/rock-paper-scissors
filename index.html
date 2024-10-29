@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rock paper scissors</title>
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <script defer type="module" src="index.js"></script>
+  </head>
+  <body>
+    <div class="main">
+      <div  class="container">
+        
+        <section id="intropage">
+          <div class="maincontainer">
+            <button class="btnplay">PLAY</button>
+            <h1 id="textintro"></h1>
+          </div>
+        </section>
+
+        <section id="gamepage">
+          <section id="header">
+            <p>Rock Paper Scissors with Compose</p>
+          </section>
+          <section id="intro">
+            <button id="reset"></button>
+            <div id="soccer">
+              <div class="player">
+                <p id="PLAYERSCORE"></p>
+                <p class="user"></p>
+              </div>
+              <p class="time"></p>
+              <div class="player">
+                <p id="COMPUTERSCORE"></p>
+                <p class="pc"></p>
+              </div>
+            </div>
+            <p class="status textofresult"></p>
+            <div id="game">
+              <img src="pic/all.png" class="image chooseuser" />
+              <p id="vs"></p>
+              <img src="pic/all.png" class="image choosepc" />
+            </div>
+            <p id="Choose"></p>
+            <div id="buttons">
+              <button id="paper" class="btn">PAPER</button>
+              <button id="rock" class="btn">ROCK</button>
+              <button id="scissors" class="btn">SCISSORS</button>
+            </div>
+          </section>
+        </section>
+
+        <section class="resultpage">
+          <p class="result textofresult"></p>
+          <button class="btnplay playagain">PLAY AGAIN</button>
+        </section>
+      </div>
+      <img src="pic/moon.svg" class="darkmode rotateImg" />
+    </div>
+  </body>
+</html>
